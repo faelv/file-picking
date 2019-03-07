@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Node names must be lowercase, id attribute can have mixed case -->
+<language xmlns="langstorage">
+	<meta xmlns="" lcid="1046" version="1.0" appversion="1.0">
+		<language><![CDATA[English (US)]]></language>
+		<author><![CDATA[faelv]]></author>
+	</meta>
+	<globals xmlns="">
+		<string id="app_descr"><![CDATA[FilePicking allows costumizable automated file operations.]]></string>
+		<string id="translation_author_tmpl"><![CDATA[Current language: %s por %s.]]></string>
+		<string id="hint"><![CDATA[Hint]]></string>
+		<string id="warning"><![CDATA[Warning]]></string>
+		<string id="error"><![CDATA[Error]]></string>
+		<string id="question"><![CDATA[Question]]></string>
+		<string id="information"><![CDATA[Information]]></string>
+        <string id="selFolder"><![CDATA[Select the folder you wish to use.]]></string>
+        <string id="filterAnd"><![CDATA['AND' Condition]]></string>
+        <string id="filterOr"><![CDATA['OR' Condition]]></string>
+        <string id="compEqual"><![CDATA[equals to]]></string>
+        <string id="compNotEqual"><![CDATA[different of]]></string>
+        <string id="compGreater"><![CDATA[greater than]]></string>
+        <string id="compGreaterEqual"><![CDATA[greater or equals to]]></string>
+        <string id="compSmaller"><![CDATA[menor que]]></string>
+        <string id="compSmallerEqual"><![CDATA[smaller or equals to]]></string>
+        <string id="compIn"><![CDATA[is in]]></string>
+        <string id="compNotIn"><![CDATA[ou of]]></string>
+        <string id="compContains"><![CDATA[contains]]></string>
+        <string id="compNotContains"><![CDATA[not contains]]></string>
+        <string id="attrName"><![CDATA[Name]]></string>
+        <string id="attrExt"><![CDATA[Extension]]></string>
+        <string id="attrPath"><![CDATA[Path]]></string>
+        <string id="attrSize"><![CDATA[Size]]></string>
+        <string id="attrCreated"><![CDATA[Creation Date]]></string>
+        <string id="attrModified"><![CDATA[Modification Date]]></string>
+        <string id="addFilterFail"><![CDATA[Select a condition node to insert a filter.]]></string>
+        <string id="action"><![CDATA[Action]]></string>
+        <string id="pausing"><![CDATA[Pausing...]]></string>
+        <string id="stopping"><![CDATA[Stopping...]]></string>
+        <string id="paused"><![CDATA[Paused]]></string>
+        <string id="analyzing"><![CDATA[Analysing...]]></string>
+        <string id="executing"><![CDATA[Executing...]]></string>
+        <string id="stopped"><![CDATA[Stopped]]></string>
+        <string id="outOf"><![CDATA[of]]></string>
+        <string id="xmlFiles"><![CDATA[XML Files (*.xml)]]></string>
+        <string id="loadFileFail"><![CDATA[Could not load file. The following errors ocurred:]]></string>
+        <string id="saveFileFail"><![CDATA[Could not save file. The following errors ocurred:]]></string>
+        <string id="closeRunning"><![CDATA[It's not possible to close the application while an action sequence still in execution. Wait or click on the Stop button.]]></string>
+        <string id="validateNoActions"><![CDATA[There are no actions in this action sequence.]]></string>
+        <string id="validateNoDestDir"><![CDATA[A destination folder is necesssary for action "%s".]]></string>
+        <string id="validateNoSrcDir"><![CDATA[A source folder is necesssary for action "%s"]]></string>
+        <string id="validateNoFileTypes"><![CDATA[The action "%s" does not include any file type.]]></string>
+        <string id="typeNormal"><![CDATA[Common]]></string>
+        <string id="typeReadOnly"><![CDATA[Read Only]]></string>
+        <string id="typeHidden"><![CDATA[Hidden]]></string>
+        <string id="typeSystem"><![CDATA[System]]></string>
+        <string id="typeOffline"><![CDATA[Offline]]></string>
+        <string id="typeEncrypted"><![CDATA[Encrypted]]></string>
+        <string id="typeSymlink"><![CDATA[SymLink]]></string>
+		<string id="typeDirectory"><![CDATA[Folder]]></string>
+        <string id="copied"><![CDATA[Copied]]></string>
+        <string id="moved"><![CDATA[Moved]]></string>
+        <string id="deleted"><![CDATA[Deleted]]></string>
+        <string id="ignored"><![CDATA[Ignored]]></string>
+        <string id="stopConfirm"><![CDATA[Do you really wish to stop execution? Files being moved or copied may become incomplete or corrupted.]]></string>
+	</globals>
+	<frmabout xmlns="">
+		<string id="caption"><![CDATA[About...]]></string>
+		<string id="btnOK"><![CDATA[OK]]></string>
+	</frmabout>
+    <frmmain xmlns="">
+        <string id="AddAction"><![CDATA[Add Action]]></string>
+        <string id="AddActionHint"><![CDATA[Add an action to the action sequence]]></string>
+        <string id="DelAction"><![CDATA[Delete Action]]></string>
+        <string id="DelActionHint"><![CDATA[Remove the selected action from the action sequence]]></string>
+        <string id="UpAction"><![CDATA[Move Action Up]]></string>
+        <string id="UpActionHint"><![CDATA[Move action up]]></string>
+        <string id="DownAction"><![CDATA[Move Action Down]]></string>
+        <string id="DownActionHint"><![CDATA[Move action down]]></string>
+        <string id="ActionListHeader"><![CDATA[Sequence]]></string>
+        <string id="noActivityMsg"><![CDATA[Select an action in the action list to edit it's properties]]></string>
+        <string id="tabAction"><![CDATA[Action Properties]]></string>
+        <string id="tabStatus"><![CDATA[Execution Status]]></string>
+	</frmmain>
+    <modmain xmlns="">
+        <string id="ActionAbout"><![CDATA[About...]]></string>
+        <string id="ActionAboutHint"><![CDATA[App information]]></string>
+        <string id="ActionOpen"><![CDATA[Open]]></string>
+        <string id="ActionOpenHint"><![CDATA[Open an action file]]></string>
+        <string id="ActionSave"><![CDATA[Save]]></string>
+        <string id="ActionSaveAs"><![CDATA[Save as]]></string>
+        <string id="ActionSaveHint"><![CDATA[Save actions to a file]]></string>
+        <string id="ActionStart"><![CDATA[Start]]></string>
+        <string id="ActionStartHint"><![CDATA[Start action sequence]]></string>
+        <string id="ActionPause"><![CDATA[Pause]]></string>
+        <string id="ActionPauseHint"><![CDATA[Pause action sequence]]></string>
+        <string id="ActionStop"><![CDATA[Stop]]></string>
+        <string id="ActionStopHint"><![CDATA[Stop action sequence]]></string>
+        <string id="ActionTest"><![CDATA[Test]]></string>
+        <string id="ActionTestHint"><![CDATA[Test action sequence]]></string>
+        <string id="ActionNew"><![CDATA[New]]></string>
+        <string id="ActionNewHint"><![CDATA[New action sequence]]></string>
+	</modmain>
+    <fraaction xmlns="">
+        <string id="bedtBrowseButton"><![CDATA[Browse]]></string>
+
+        <string id="tbtnFilterAdd"><![CDATA[Add]]></string>
+        <string id="tbtnFilterAddHint"><![CDATA[Add a new filter or condition node]]></string>
+        <string id="tbtnFilterDel"><![CDATA[Remove]]></string>
+        <string id="tbtnFilterDelHint"><![CDATA[Remove selected filter]]></string>
+
+        <string id="mnuFilter"><![CDATA[New Filter]]></string>
+        <string id="mnuNodeAnd"><![CDATA[New 'AND' condition]]></string>
+        <string id="mnuNodeOr"><![CDATA[New 'OR' condition]]></string>
+        <string id="mnuNodeAndRoot"><![CDATA[New root 'AND' condition]]></string>
+        <string id="mnuNodeOrRoot"><![CDATA[New root 'OR' condition]]></string>
+
+        <string id="lblAttribute"><![CDATA[Attribute]]></string>
+        <string id="lblComparison"><![CDATA[Comparison]]></string>
+        <string id="lblValue"><![CDATA[Value]]></string>
+        <string id="lblFileTypes"><![CDATA[File Types]]></string>
+        <string id="lblOnFileExists"><![CDATA[If file exists]]></string>
+        <string id="lblOnNotFileExists"><![CDATA[If file not exists]]></string>
+        <string id="lblOp"><![CDATA[Operation]]></string>
+        <string id="lblFilters"><![CDATA[Selection Filters]]></string>
+        <string id="lblDescr"><![CDATA[Name]]></string>
+		<string id="lblSourceDir"><![CDATA[Source Folder]]></string>
+        <string id="lblDestDir"><![CDATA[Destination Folder]]></string>
+
+        <string id="chkIncludeSubfolders"><![CDATA[Include subdirectories]]></string>
+        <string id="chkDelEmptyDirs"><![CDATA[Delete empty subdirectories]]></string>
+        <string id="chkTypeNormal"><![CDATA[Common]]></string>
+        <string id="chkTypeReadOnly"><![CDATA[Read Only]]></string>
+        <string id="chkTypeHidden"><![CDATA[Hidden]]></string>
+        <string id="chkTypeSystem"><![CDATA[System]]></string>
+        <string id="chkTypeOffline"><![CDATA[Offline]]></string>
+        <string id="chkTypeEncrypted"><![CDATA[Encrypted]]></string>
+        <string id="chkTypeSymlink"><![CDATA[Follow SymLinks]]></string>
+
+        <string id="itemCopy"><![CDATA[Copy]]></string>
+        <string id="itemMove"><![CDATA[Move]]></string>
+        <string id="itemDelete"><![CDATA[Delete]]></string>
+
+        <string id="itemAttrName"><![CDATA[Name]]></string>
+        <string id="itemAttrExt"><![CDATA[Extension]]></string>
+        <string id="itemAttrPath"><![CDATA[Path]]></string>
+        <string id="itemAttrSize"><![CDATA[Size]]></string>
+        <string id="itemAttrCreated"><![CDATA[Creation Date]]></string>
+        <string id="itemAttrModified"><![CDATA[Modification Date]]></string>
+
+        <string id="itemCompEqual"><![CDATA[equals to]]></string>
+        <string id="itemCompNotEqual"><![CDATA[different of]]></string>
+        <string id="itemCompGreater"><![CDATA[Greater than]]></string>
+        <string id="itemCompGreaterEqual"><![CDATA[Greater or Equals to]]></string>
+        <string id="itemCompSmaller"><![CDATA[Smaller than]]></string>
+        <string id="itemCompSmallerEqual"><![CDATA[Smaller or Equals to]]></string>
+        <string id="itemCompIn"><![CDATA[Is in]]></string>
+        <string id="itemCompNotIn"><![CDATA[Ou of]]></string>
+        <string id="itemCompContains"><![CDATA[Contains]]></string>
+        <string id="itemCompNotContains"><![CDATA[Not Contains]]></string>
+
+        <string id="itemOverwrite"><![CDATA[Overwrite]]></string>
+        <string id="itemOverwriteNewer"><![CDATA[Overwrite if newer]]></string>
+        <string id="itemOverwriteOlder"><![CDATA[Overwrite if older]]></string>
+        <string id="itemOverwriteGreater"><![CDATA[Overwrite if greater]]></string>
+        <string id="itemOverwriteSmaller"><![CDATA[Overwrite if smaller]]></string>
+        <string id="itemSkip"><![CDATA[Ignore]]></string>
+        <string id="itemSkipDelete"><![CDATA[Ignore and delete original]]></string>
+        <string id="itemKeepBoth"><![CDATA[Move/Copy but keep both files in destination]]></string>
+        <string id="itemDelete"><![CDATA[Delete]]></string>
+        <string id="itemContinue"><![CDATA[Move/Copy]]></string>
+	</fraaction>
+    <frastatus xmlns="">
+		<string id="lblTimeElapsed"><![CDATA[Ellapsed Time]]></string>
+		<string id="lblTimeRemaining"><![CDATA[Remaining Time]]></string>
+        <string id="lblSpeed"><![CDATA[Speed]]></string>
+        <string id="lblProgress"><![CDATA[Progress]]></string>
+        <string id="headerFileName"><![CDATA[File]]></string>
+        <string id="headerStatus"><![CDATA[Status]]></string>
+        <string id="headerSource"><![CDATA[Location]]></string>
+        <string id="headerDestination"><![CDATA[Destination]]></string>
+        <string id="headerType"><![CDATA[Type]]></string>
+        <string id="btnReset"><![CDATA[Clear]]></string>
+		<string id="chkShowIgnored"><![CDATA[Show ignored]]></string>
+		<string id="chkCleanActions"><![CDATA[Remove completed actions]]></string>
+	</frastatus>
+</language>
+<!-- <string id=""><![CDATA[ ]]></string> -->
